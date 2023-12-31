@@ -1,1 +1,27 @@
 @import './base.css';
+
+.shopping-cart-icon__primary g path {
+    fill: var(--color-primary);
+}
+
+.speakers .main__title {
+    font-size: 98px;
+}
+
+.speaker__photo {
+    height: 310px;
+    width: 310px;
+    object-fit: cover;
+}
+.speaker__photo-top {
+    object-position: top;
+}
+.speaker__name {
+    font-size: 32px;
+}
+.speaker__company {
+
+}
+.speaker__bio {
+
+}

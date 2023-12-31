@@ -19,9 +19,15 @@
     --color-button-secondary-text: var(--color-text-on-primary);
 }
 body {
+    font-family: inter;
+}
+.body__primary {
     background: var(--color-primary);
     color: var(--color-text-on-primary);
-    font-family: inter;
+}
+.body__secondary {
+    background: var(--color-text-on-primary);
+    color: var(--color-primary);
 }
 p {
     margin: 0;
@@ -58,6 +64,11 @@ a {
 .nav__list-item {
     margin-inline-end: 36px;
     font-size: 20px;
+}
+
+
+.main {
+    padding: 150px;
 }
 
 
