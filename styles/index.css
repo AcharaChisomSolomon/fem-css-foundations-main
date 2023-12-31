@@ -1,3 +1,13 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: interBold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 body {
     background: #FF7B54;
     color: #ffffff;
